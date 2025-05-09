@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43C5ADBF-B574-DC2A-9309-EE062836D139" name="Vendedor">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>A80ED7C4-F76C-C878-09A2-6DD3B35C169A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matriculaVendedor" id="B04ED6AE-B210-49E7-0E04-1BE6530DB75B">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>26856AA0-1125-3CD2-011D-E5105F9F813F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeVendedor" id="EED6AAE6-A9A0-5B2A-3ABD-44C9A6C00810">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>4A471593-24AA-1E59-4AD6-7E91B4BB69DC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B57A722-77FC-00A4-324C-13EDD4260133" name="Vendedor_PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>C622BF33-7495-DDAD-8F1B-FB2DC72BCE91</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B04ED6AE-B210-49E7-0E04-1BE6530DB75B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

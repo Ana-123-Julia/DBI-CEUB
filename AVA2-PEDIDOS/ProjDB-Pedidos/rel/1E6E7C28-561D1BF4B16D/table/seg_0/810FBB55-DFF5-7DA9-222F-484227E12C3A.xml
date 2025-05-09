@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="810FBB55-DFF5-7DA9-222F-484227E12C3A" name="Pedidos">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>4D880D82-8C88-06C4-EAF1-AEA2A1B8B918</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>Pedidos</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumeroPedido" id="7F9B63EB-678E-7B17-01DD-D33E7007D86D">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>7DE9E7AA-9484-9353-4B63-91B030086F88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPedido" id="1BB9C80C-DCEA-58A9-22C3-A2911BD035CF">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>CAC487DE-BAB7-1CB5-2EB7-3816379C9B97</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaPedido" id="DFDD3F45-63B6-F547-003A-C411FDABC532">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>A01CD316-3E2D-AF2C-2359-BCBBD3792B6A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statuspedido" id="F2D9ADEA-CE0D-F039-A743-3611ECB43FCF">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>F45E8CAC-3C7C-660E-C35D-041AE5A2240D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matriculaVendedor" id="AED217C5-5B91-63B0-FD84-120C06BD4D72">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>5A1195BA-BD36-8132-E51C-FCA9D954FF26</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="0FA67634-2101-89D0-9774-34F1F8E9673C">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>3833ED4F-B516-DB0E-61A3-C1A8452474D7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_matriculaVendedor" id="24A85552-C4DC-D161-605A-CC855454F9A8">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>E55058B8-D516-11CA-95D5-355EBA09693D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4F9AC86-D3D4-85A4-719D-8B95A48EC5CD" referredColumn="B04ED6AE-B210-49E7-0E04-1BE6530DB75B"/>
+</associations>
+</Column>
+<Column name="Cliente_cpfCliente" id="763AFA48-6686-ADF8-EA93-579F6F953942">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>CA524914-91C2-BA72-416B-AA7165845E03</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FB4AC34-BCD6-131A-A054-9BDA6462E539" referredColumn="DFD033F7-E2DA-2E1C-BB34-250F2B09CDB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="580DDC1F-3DEB-BC72-142D-24A6E94E9C49" name="Pedidos_PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>08B4D2EF-0585-CA56-4C55-7494CDA478BB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F9B63EB-678E-7B17-01DD-D33E7007D86D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADE9699D-BCE1-7AFD-C33C-9C20DCA06446" name="Pedidos_Vendedor_FK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>378F666E-C26C-9811-4564-32D298FCA727</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24A85552-C4DC-D161-605A-CC855454F9A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73A1A8F7-C06F-9D76-F83A-0F27206EEBF4" name="Pedidos_Cliente_FK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>044084CA-36E9-9D9B-69A4-FC0236F8F6F2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="763AFA48-6686-ADF8-EA93-579F6F953942"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

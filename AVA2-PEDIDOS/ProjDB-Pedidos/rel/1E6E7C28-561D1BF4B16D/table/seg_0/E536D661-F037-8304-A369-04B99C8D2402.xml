@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E536D661-F037-8304-A369-04B99C8D2402" name="Cliente">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>AB1B2DCD-70AF-4F35-9D3C-9208AB97800A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCliente" id="BFF8D728-22E8-3239-89D0-265D6F4D9FDA">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>A8D9FBC6-1273-7DA6-B847-33D4DC0AE21E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="DFD033F7-E2DA-2E1C-BB34-250F2B09CDB2">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>73EC354A-A5D7-2742-4644-397EE05B260C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="55C850DE-526D-097A-8A2E-2909C3434D3D">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>3B205EC8-D516-5AF6-2D91-D1E569A16393</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailCliente" id="31C8E323-35E3-EAB6-478B-C903027AA8D5">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>5C264723-8880-329E-0DB8-A213CAF64E98</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoCliente" id="E5079077-4789-2F9B-0E82-6175274F2488">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>D9E0D040-9B28-4F45-34F7-0221E9DE0B41</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F88CEC5E-045C-E3C2-310B-5C771605B3ED" name="Cliente_PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:33:45 UTC</createdTime>
+<generatorID>F6250B20-79C5-0791-2D40-AECE99B005D4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFD033F7-E2DA-2E1C-BB34-250F2B09CDB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

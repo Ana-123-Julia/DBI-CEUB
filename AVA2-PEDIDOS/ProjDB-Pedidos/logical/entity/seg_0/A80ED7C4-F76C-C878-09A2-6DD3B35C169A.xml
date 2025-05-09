@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A80ED7C4-F76C-C878-09A2-6DD3B35C169A" name="Vendedor">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:48:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matriculaVendedor" id="26856AA0-1125-3CD2-011D-E5105F9F813F">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:48:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeVendedor" id="4A471593-24AA-1E59-4AD6-7E91B4BB69DC">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:48:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C622BF33-7495-DDAD-8F1B-FB2DC72BCE91" name="Vendedor PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:49:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26856AA0-1125-3CD2-011D-E5105F9F813F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

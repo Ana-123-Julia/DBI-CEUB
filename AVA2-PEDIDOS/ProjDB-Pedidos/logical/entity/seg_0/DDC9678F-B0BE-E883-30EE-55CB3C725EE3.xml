@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDC9678F-B0BE-E883-30EE-55CB3C725EE3" name="ItensPedido">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:47:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Pedidos</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NumeroPedido" id="D1F75642-7AFF-E77A-85B3-17FD4256DE22">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:47:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>5F1C79D4-7ED7-3AC4-B18E-6A8B51FA5A3A</importedID>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoProduto" id="05F06A84-57AA-0062-2D1F-DD41913384A2">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:47:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>FAA30FCE-3120-1424-0724-93E96512B269</importedID>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUnitarioProduto" id="B7C68398-9423-8847-03A5-4F8EF42053AB">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:47:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>54D26553-977A-4DA1-21B1-BB4CBF3CE193</importedID>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeProduto" id="62B38933-D1BC-8F22-19B4-9E7D57AEF7EE">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:47:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>CA4B2753-7FB7-A3C1-AC80-F7E1933F608D</importedID>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoProduto" id="6EC4DC10-7C2F-51A0-C2A1-0A14C01984AB">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:22:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumeroPedido1" id="8303F334-6207-3540-EE3A-A614E66A47EE">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-09 00:32:17 UTC</createdTime>
+<generatorID>64ED1740-BC31-F061-02AA-D6475ACCA960</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="true"/>
+</engineerTo>
+<referedAttribute>7DE9E7AA-9484-9353-4B63-91B030086F88</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A930FA5E-C295-54E8-898E-7BEDBD4532B5" name="Pedidos PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-08 23:47:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1E6E7C28-0FFE-40DF-8E3F-561D1BF4B16D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1F75642-7AFF-E77A-85B3-17FD4256DE22</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
