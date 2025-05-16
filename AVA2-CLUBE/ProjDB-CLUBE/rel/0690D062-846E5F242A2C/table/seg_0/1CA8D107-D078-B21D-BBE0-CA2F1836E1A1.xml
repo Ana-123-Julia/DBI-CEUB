@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CA8D107-D078-B21D-BBE0-CA2F1836E1A1" name="Menssalidades">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>DDE15C06-BDA7-6390-E8FF-0AA3686B3899</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeTitular" id="94CFFD81-361A-5101-125C-7FF8A2D1A2D9">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>1F905778-4BA3-1EBF-0CA4-F782C81E2A49</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfTitular" id="7C27C23D-DF0D-7DC7-148D-B696E491B129">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>6D343E2B-2C4D-3AED-59E8-7EAFC561A1C3</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorMensalidade" id="BB646221-6F92-B995-E09A-0BD72ECC96AE">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>E830A377-D86B-6C73-C3A0-9B7F2596C4EB</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataVenscimento" id="9984D82B-55E7-E1B0-5C26-F2D7A93222EA">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>A8CBB82D-89B4-DDAB-9061-B85CF27317A4</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssociadosTitular_cpfDependente" id="3F13BF95-71F7-D85A-13D7-5CCDC507ED8F">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>58B8604B-3AA3-E6BD-82CE-C9D92293C445</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B186350-5008-ADEC-AC96-CF5252AC19D5" referredColumn="DE832F3D-5F6C-F7B5-5861-B6A238DBE020"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C427E97-7786-FC6B-17BF-BA31BFE7E338" name="Menssalidades_PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>7CF71875-922C-4845-1531-4DB600F7501A</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94CFFD81-361A-5101-125C-7FF8A2D1A2D9"/>
+<colUsage columnID="3F13BF95-71F7-D85A-13D7-5CCDC507ED8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FB5E61E-9C97-4924-29A0-0D1EF6F49609" name="Menssalidades_AssociadosTitular_FK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>369E21C1-B0A7-08D4-E824-852164178F34</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F13BF95-71F7-D85A-13D7-5CCDC507ED8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

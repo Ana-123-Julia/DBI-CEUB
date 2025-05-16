@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C4C3F09-2F23-9CE3-A046-7D5E4CD3936F" name="Dependentes">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>53C014B0-8956-3D63-CF42-62C37B81E912</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfDependente" id="B0E12E65-D7AA-1E56-6993-CCEF3E929CCC">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>7FDA3FA5-0D1D-14EB-E721-C625A72D4472</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeDependente" id="BAE76B1F-8D50-BA22-D1ED-741BDD545AAF">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>129D5B55-2B67-E07D-2150-B1F5B80D09C7</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grauParentesco" id="15ACD06D-25A4-341C-55CD-70A79CA04E75">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>5A962C0C-C7F6-FD5A-DAD0-1985247DE611</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneDependentes" id="125363D4-5657-25B9-4DD9-E6AAAE5C3EFB">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>2D051F81-7F84-96A2-7063-94F44ED52BCB</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoDependentes" id="B4E3D725-0D92-5285-82A1-FA3A615CEC8A">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>7BD0B904-4F12-8FB0-02A0-D42F9E892363</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimentoDependentes" id="A397E938-E420-5453-76E3-BBB1CF0CC5E1">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>4227E25D-E49F-5FED-3850-38C9B4BF4416</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8529B6A5-D376-63FE-A41E-324A42C8940C" name="Dependentes_PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>7CC6D991-3C39-70C3-B52C-7C2AF703AA86</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0E12E65-D7AA-1E56-6993-CCEF3E929CCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

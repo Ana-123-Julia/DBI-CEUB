@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C89B9D2-F1A9-4B48-58F4-9C015BFF6947" name="AssociadosTitular">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:33:41 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="E3C702FE-C949-BEE5-46B6-9524642590D5">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:34:27 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="F177BD81-AEE3-5037-7EDC-E2608ACB42FA">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:35:10 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grauParentesco" id="F6662849-A223-9E37-CB1D-A80EA76E927C">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:35:54 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneDependente" id="878DF425-62F2-00A3-E60A-9F1508C39F60">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:36:31 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="2A4F2F02-3F31-043B-0E1A-94D7EE7D84EB">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:37:38 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FE1ABB7-D11E-C51F-3968-F86CBB1DD909" name="Associados PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:34:56 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E3C702FE-C949-BEE5-46B6-9524642590D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

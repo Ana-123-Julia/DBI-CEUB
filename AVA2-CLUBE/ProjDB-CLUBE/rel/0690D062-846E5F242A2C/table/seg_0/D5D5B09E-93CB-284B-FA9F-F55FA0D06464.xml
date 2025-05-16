@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5D5B09E-93CB-284B-FA9F-F55FA0D06464" name="AssociadosTitular">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>4C89B9D2-F1A9-4B48-58F4-9C015BFF6947</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfDependente" id="DE832F3D-5F6C-F7B5-5861-B6A238DBE020">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>E3C702FE-C949-BEE5-46B6-9524642590D5</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeDependente" id="22514E2E-88F0-9EA2-72C5-F1D4A188B612">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>F177BD81-AEE3-5037-7EDC-E2608ACB42FA</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grauParentesco" id="67A18C0C-A962-01E5-24FA-E1B02A164B46">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>F6662849-A223-9E37-CB1D-A80EA76E927C</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneDependente" id="00A00060-3F46-AE98-8CFF-30C89C016525">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>878DF425-62F2-00A3-E60A-9F1508C39F60</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimento" id="B125B5AA-0ED2-D120-8244-82769B347E77">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>2A4F2F02-3F31-043B-0E1A-94D7EE7D84EB</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49853734-98CF-28F8-A85C-91464B7EE9D5" name="AssociadosTitular_PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>9FE1ABB7-D11E-C51F-3968-F86CBB1DD909</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE832F3D-5F6C-F7B5-5861-B6A238DBE020"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

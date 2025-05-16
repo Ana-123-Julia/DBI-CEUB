@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE7CE75A-B025-7806-8D06-0F5DC32F2EC1" name="Telefone">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>43FC210D-ED0D-4946-5C05-6979239F82ED</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="31D58C32-154D-D38C-F402-A4770ED59515">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>77013C62-9D38-8311-88BD-FA2442F9DA4E</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="5B980CD3-BABA-E753-543A-D0D8EE10DE8F">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>80209DEA-8B8F-3D96-D31D-BDEA050B1E9B</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssociadosTitular_cpfDependente" id="D7C3F712-FC92-8FED-628A-7BFFF98B74CD">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>3672617D-874D-76A8-D572-BD1492CDEBD0</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60CD4BE1-6948-8E5E-0045-590D05CEB291" referredColumn="DE832F3D-5F6C-F7B5-5861-B6A238DBE020"/>
+</associations>
+</Column>
+<Column name="Dependentes_cpfDependente" id="1D8BBCC1-D307-5DED-9CE5-13C2ABE7D5B0">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>AE27CE13-3146-4932-14AF-6A732B47BCFC</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7392F993-746D-98B2-4B60-668FE11A79BE" referredColumn="B0E12E65-D7AA-1E56-6993-CCEF3E929CCC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8190AFD-F7D1-7030-106B-CDE2DBD51118" name="Telefone_PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>F79BDA65-ACC7-2F17-4849-5E76048BC7CC</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31D58C32-154D-D38C-F402-A4770ED59515"/>
+<colUsage columnID="D7C3F712-FC92-8FED-628A-7BFFF98B74CD"/>
+<colUsage columnID="1D8BBCC1-D307-5DED-9CE5-13C2ABE7D5B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="465D23F6-D6E6-F39C-5465-9B670DBEEA49" name="Telefone_AssociadosTitular_FK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>ACC8622B-6595-21AB-83EA-C14C48A1BE39</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7C3F712-FC92-8FED-628A-7BFFF98B74CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AF7D85D-14F1-6DE0-69E9-F7EEE6FE476F" name="Telefone_Dependentes_FK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>4FF98E27-E759-BBDB-8B93-D08DA69CAD86</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D8BBCC1-D307-5DED-9CE5-13C2ABE7D5B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

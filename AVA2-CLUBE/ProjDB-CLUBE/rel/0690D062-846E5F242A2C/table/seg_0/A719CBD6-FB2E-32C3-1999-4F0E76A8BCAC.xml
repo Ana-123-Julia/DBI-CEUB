@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A719CBD6-FB2E-32C3-1999-4F0E76A8BCAC" name="Endereco">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>3F0CDB03-619B-83CE-DECA-CEE778D287CD</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="354D72F6-870B-1497-6033-F5DC6AE3FA4B">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>BB4DE462-C3B7-453E-B573-284F6CD9C6E9</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEndereco" id="A1D0FCA4-EA80-5F25-DD4C-4E0A06C57E96">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>F369D17E-F01A-DA49-7A2C-7C81322163E6</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEndereco" id="E1717B82-63D9-580C-0883-D0174B5D70A7">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>A10277B5-4B90-8A5D-EE1B-720B3DC015CD</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEndereco" id="AD10D001-3151-4F9F-71A1-F527348648F8">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>F681A558-1AC7-47C7-043A-B214A39BAF9C</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroEndereco" id="B3528045-1A65-6A5F-94C6-5A7D3A26BB91">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>D12C2079-BB6A-5084-178F-69DB48244752</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssociadosTitular_cpfDependente" id="65DB9993-457A-86E3-CB50-CCDA986FF043">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>EED485BE-FD03-0F27-C85B-A96141AF0D63</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59F134C5-F8C4-5282-B12B-D027FBBC14E6" referredColumn="DE832F3D-5F6C-F7B5-5861-B6A238DBE020"/>
+</associations>
+</Column>
+<Column name="Dependentes_cpfDependente" id="10849479-E00B-FAC8-2473-E569B3426BB7">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>D9899E9A-0193-0508-4448-5345CA587911</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CBFCCCD-1134-C625-27EE-F7F52BFCF299" referredColumn="B0E12E65-D7AA-1E56-6993-CCEF3E929CCC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="420B9634-6E47-7B0D-7890-D30D5BF15ADA" name="Endereco_PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>F8531CC5-8AF9-B7EB-80DB-51C0BA68810D</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="354D72F6-870B-1497-6033-F5DC6AE3FA4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3DC8A07-7BA6-8DB5-9391-C8AC53F5CD0D" name="Endereco__IDX">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8A76872A-F0E3-3413-5B31-F8B909D43AE8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="65DB9993-457A-86E3-CB50-CCDA986FF043"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF2DB79E-AA02-E9BA-8036-0317DDC02230" name="Endereco__IDXv1">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F7A14E1B-08B4-5C0F-E66B-751C9644E44B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="10849479-E00B-FAC8-2473-E569B3426BB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB71A4E3-926F-3628-2E08-519CF1732296" name="Endereco_AssociadosTitular_FK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>8A76872A-F0E3-3413-5B31-F8B909D43AE8</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65DB9993-457A-86E3-CB50-CCDA986FF043"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD417F46-1506-FC21-9739-581829BE9F35" name="Endereco_Dependentes_FK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:46 UTC</createdTime>
+<generatorID>F7A14E1B-08B4-5C0F-E66B-751C9644E44B</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10849479-E00B-FAC8-2473-E569B3426BB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

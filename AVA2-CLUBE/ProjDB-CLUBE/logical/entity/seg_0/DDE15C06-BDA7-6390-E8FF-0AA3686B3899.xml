@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDE15C06-BDA7-6390-E8FF-0AA3686B3899" name="Menssalidades">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:38:44 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeTitular" id="1F905778-4BA3-1EBF-0CA4-F782C81E2A49">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:39:14 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="6D343E2B-2C4D-3AED-59E8-7EAFC561A1C3">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:41:44 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorMensalidade" id="E830A377-D86B-6C73-C3A0-9B7F2596C4EB">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:42:11 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataVenscimento" id="A8CBB82D-89B4-DDAB-9061-B85CF27317A4">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:43:57 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="58B8604B-3AA3-E6BD-82CE-C9D92293C445">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-16 00:49:10 UTC</createdTime>
+<generatorID>369E21C1-B0A7-08D4-E824-852164178F34</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<referedAttribute>E3C702FE-C949-BEE5-46B6-9524642590D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CF71875-922C-4845-1531-4DB600F7501A" name="Menssalidades PK">
+<createdBy>anajulia.cardoso</createdBy>
+<createdTime>2025-05-15 23:40:10 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0690D062-3719-4433-270F-846E5F242A2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F905778-4BA3-1EBF-0CA4-F782C81E2A49</attributeRef>
+<attributeRef>58B8604B-3AA3-E6BD-82CE-C9D92293C445</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
